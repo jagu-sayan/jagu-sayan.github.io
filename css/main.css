@@ -236,11 +236,13 @@ display: block;
 
 .article-day
 {
+	display: block;
 	font-weight: 700;
 }
 
-#article-month
+.article-month
 {
+	display: block;
 	font-size: 0.8em;
 	color: #777;
 }
@@ -447,4 +449,28 @@ pre .function, pre .python .decorator, pre .python .title, pre .ruby .function .
 }
 pre .keyword, pre .javascript .function {
     color: #CC99CC;
+}
+
+@media screen and (max-width: 1060px)
+{
+	.wrap
+	{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 560px)
+{
+	#search_form
+	{
+		display: none;
+	}
+	#footer a, #footer span
+	{
+		display: block;
+	}
+	body
+	{
+		font-size: 1.1em;
+	}
 }

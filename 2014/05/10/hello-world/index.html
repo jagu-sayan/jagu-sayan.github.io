@@ -24,25 +24,25 @@
 				<li>
 					<a href="/" class="over">
 						Blog
-						<div class="icon" id="icon-over""></div>
+						<div class="icon" id="icon-over"></div>
 					</a>
 				</li>
 			
 				<li>
 					<a href="/project" >
 						Projets
-						<div class="icon""></div>
+						<div class="icon"></div>
 					</a>
 				</li>
 			
 				<li>
 					<a href="/about" >
 						A propos
-						<div class="icon""></div>
+						<div class="icon"></div>
 					</a>
 				</li>
 			
-				<li><form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="GO" class="search-form-submit"><input type="hidden" name="q" value="site:http://jacob.zgun-family.eu"></form></li>
+				<li id="search_form"><form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="GO" class="search-form-submit"><input type="hidden" name="q" value="site:http://jacob.zgun-family.eu"></form></li>
 			</ul>
 		</nav>
 	</header>
@@ -51,9 +51,9 @@
 			<article id="post-hello-world" class="article" itemscope itemprop="blogPost">
 	<div class="article-meta">
 		<a href="/2014/05/10/hello-world/" class="">
-		<time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">
-			<div class="article-day">10</div>
-			<div class="article-month">mai</div>
+		<time datetime="2014-05-10T00:59:00.000Z" itemprop="datePublished">
+			<span class="article-day">10</span>
+			<span class="article-month">mai</span>
 		</time>
 		</a>
 	</div>
@@ -100,7 +100,8 @@
 
 		</section>
 		<footer id="footer">
-			Copyright © 2014 Jacob ZAK - <a href="/legal">Mentions Légales</a>
+			<span>Copyright © 2014 Jacob ZAK</span>
+			- <a href="/legal">Mentions Légales</a>
 			- <a href="https://github.com/jagu-sayan/" id="footer-github" class="icon" title="">&nbsp;Suivez moi sur github</a>
 			- <a href="#header" id="footer-up" class="icon" title="Haut de page">Haut&nbsp;de&nbsp;page </a>
 		</footer>
